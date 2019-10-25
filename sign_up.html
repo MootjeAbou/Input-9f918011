@@ -3,10 +3,29 @@
 <head>
 </head>
 <body>
+<p>Register here to become member of the BIT academy.</p>
+
+<p id="exciting">Just make sure you filled in everything correctly!!!</p>
+
 <label for="name">Name (4 to 16 characters):</label>
 
 <input type="text" id="name" name="name" required
        minlength="4" maxlength="16" size="20">
+<form action="" method="get" class="form-example">
+
+    <div class="form-example">
+        <label for="name">Enter your name: </label>
+        <input type="text" name="name" id="name" required>
+    </div>
+    <div class="form-example">
+        <label for="email">Enter your email: </label>
+        <input type="email" name="email" id="email" required>
+    </div>
+    <div class="form-example">
+        <input type="submit" value="Subscribe!">
+    </div>
+</form>
+
 
 <label for="start">Start date:</label>
 
@@ -15,14 +34,14 @@
        min="2018-01-01" max="2018-12-31">
 
 <div class="preference">
-    <label for="cheese">Do you like cheese?</label>
+    <label for="cheese">Do you prefer working with PHP?</label>
     <input type="checkbox" name="cheese" id="cheese">
 </div>
 
 <div class="preference">
-    <label for="peas">Do you like peas?</label>
+    <label for="peas">?</label>
     <input type="checkbox" name="peas" id="peas">
-    <label for="avatar">Choose a profile picture:</label>
+    <label for="avatar">Or would you rather develop using Java?:</label>
 
     <input type="file"
            id="avatar" name="avatar"
