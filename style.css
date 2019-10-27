@@ -26,44 +26,44 @@ label {
 
 .preference {
     display: flex;
-    justify-content: space-between;
-    width: 60%;
-    margin: .5rem;
-}
+        justify-content: space-between;
+        width: 60%;
+        margin: .5rem;
+    }
 
-label {
-    display: block;
-    font: 1rem 'Fira Sans', sans-serif;
-}
+    label {
+        display: block;
+        font: 1rem 'Fira Sans', sans-serif;
+    }
 
-input,
-label {
-    margin: .4rem 0;
-}
-label {
-    display: block;
-    font: 1rem 'Fira Sans', sans-serif;
-}
+    input,
+    label {
+        margin: .4rem 0;
+    }
+    label {
+        display: block;
+        font: 1rem 'Fira Sans', sans-serif;
+    }
 
-input,
-label {
-    margin: .4rem 0;
-}
+    input,
+    label {
+        margin: .4rem 0;
+    }
 
-form.form-example {
-    display: table;
-}
+    form.form-example {
+        display: table;
+    }
 
-div.form-example {
-    display: table-row;
-}
+    div.form-example {
+        display: table-row;
+    }
 
-label, input {
-    display: table-cell;
-    margin-bottom: 10px;
-}
+    label, input {
+        display: table-cell;
+        margin-bottom: 10px;
+    }
 
-label {
-    padding-right: 10px;
-}
+    label {
+        padding-right: 10px;
+    }
 
